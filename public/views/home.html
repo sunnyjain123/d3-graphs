@@ -1,0 +1,11 @@
+<div class="container" ng-init="vm.getAllData()">
+	<div id="page_loader" ng-if="vm.showloaderall" style="">
+		<img src = "/img/3771.gif" class="spotallloader">
+	</div>
+	<div class="col-xs-12" style="padding : 0;">
+		<rzslider rz-slider-model="vm.histoSlider.value" rz-slider-options="vm.histoSlider.options" ng-if="vm.result"></rzslider>
+		<div class="col-xs-12" id="histo"></div>
+	</div>
+
+	<div class="col-xs-12" id="circle"></div>
+</div>

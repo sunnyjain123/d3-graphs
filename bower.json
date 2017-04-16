@@ -1,0 +1,9 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4"
+  }
+}

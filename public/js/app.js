@@ -1,0 +1,1 @@
+angular.module('graphs', ['ngRoute', 'appRoutes', 'MainCtrl', 'rzModule']);
